@@ -1,8 +1,15 @@
-workflow "New workflow" {
+workflow "On push" {
   on = "push"
-  resolves = ["new-action"]
 }
 
-action "new-action" {
-  uses = "owner/repo/path@ref"
+workflow "On pull" {
+  on = "push"
+}
+
+workflow "On create" {
+  on = "create"
+}
+
+workflow "On delete" {
+  on = "delete"
 }
