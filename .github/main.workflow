@@ -27,7 +27,8 @@ action "Proxy payload on push" {
 }
 
 action "Proxy payload on pull" {
-  uses = "./.github/proxy_payload.sh"
+  uses = "actions/bin/filter@46ffca7632504e61db2d4cb16be1e80f333cb859"
+  runs = "./.github/proxy_payload.sh"
 }
 
 action "Proxy payload on create" {
