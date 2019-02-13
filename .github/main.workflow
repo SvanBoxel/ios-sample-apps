@@ -23,7 +23,7 @@ action "Proxy payload on delete" {
 }
 
 action "Proxy payload on push" {
-  uses = "./.github/proxy_payload"
+  uses = "./.github/proxy_request"
 }
 
 action "Proxy payload on pull" {
