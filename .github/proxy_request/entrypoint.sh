@@ -1,4 +1,5 @@
-#!/bin/sh -l
+#!/bin/bash
+set -e
 
 declare -a endpoints=("https://aaaaa1.nl" "https://aaaaa2.nl" "https://aaaaa3.nl")
 
