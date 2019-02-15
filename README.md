@@ -1,4 +1,4 @@
-Ooyala SDK for iOS Sample Apps-7
+Ooyala SDK for iOS Sample Apps-8
 ==================================
 
 # Introduction
