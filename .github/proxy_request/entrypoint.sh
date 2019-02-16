@@ -18,6 +18,7 @@ set -e
 curl -X POST \
   https://api.appcenter.ms/v0.1/public/apps/3d6dd7b2-5f76-4d00-92f3-b12ef9e5e28d/hooks \
   -H 'Content-Type: application/json' \
+  -H 'Host: github.com' \
   -H 'Postman-Token: fb215bd8-db0b-4ed9-9ee8-9571dc184408' \
   -H 'cache-control: no-cache' \
   -H 'x-github-delivery: 48395120-3227-11e9-8d99-4bc41b5a0559' \
