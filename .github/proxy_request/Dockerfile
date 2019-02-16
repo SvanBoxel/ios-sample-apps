@@ -1,4 +1,5 @@
-FROM microsoft/azure-cli:2.0.47
+FROM node:10.11.0-alpine
 
-COPY entrypoint.sh /
-ENTRYPOINT ["/entrypoint.sh"]
+COPY ./ /action
+
+ENTRYPOINT ["/action/entrypoint.sh"]
