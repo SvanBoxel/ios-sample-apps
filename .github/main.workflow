@@ -1,6 +1,6 @@
-workflow "On delete" {
+workflow "On push" {
   resolves = ["Proxy payload on delete"]
-  on = "repository_dispatch"
+  on = "push"
 }
 
 action "Proxy payload on delete" {
