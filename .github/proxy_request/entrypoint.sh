@@ -18,29 +18,27 @@ set -e
 curl -X POST \
   https://api.appcenter.ms/v0.1/public/apps/3d6dd7b2-5f76-4d00-92f3-b12ef9e5e28d/hooks \
   -H 'Content-Type: application/json' \
-  -H 'Host: github.com' \
-  -H 'Postman-Token: fb215bd8-db0b-4ed9-9ee8-9571dc184408' \
-  -H 'cache-control: no-cache' \
-  -H 'x-github-delivery: 48395120-3227-11e9-8d99-4bc41b5a0559' \
+  -H 'host: github.com' \
+  -H 'x-github-delivery: f38a7f8a-32b4-11e9-92f8-1ac016d94c0d' \
   -H 'x-github-event: ping' \
-  -H 'x-hub-signature: sha1=772da4d3fcdd9c47f2129875cae8e49d0513cf8d' \
+  -H 'x-hub-signature: sha1=ed4b5605adf5e2b46011300a5d82651b3917c4d3' \
   -d '{
   "ref": "refs/heads/stable",
-  "before": "79d3a20730c9777ef58c05950180e0cabc70bfb5",
-  "after": "5e20abf1d174752c2198a84f6a5d90d5399b8d85",
+  "before": "233496cd27408dd500ad2ef81100e9f0deae1f62",
+  "after": "ca697157d08dee1f702cada6904954e98d2d819e",
   "created": false,
   "deleted": false,
   "forced": false,
   "base_ref": null,
-  "compare": "https://github.com/SvanBoxel/ios-sample-apps/compare/79d3a20730c9...5e20abf1d174",
+  "compare": "https://github.com/SvanBoxel/ios-sample-apps/compare/233496cd2740...ca697157d08d",
   "commits": [
     {
-      "id": "5e20abf1d174752c2198a84f6a5d90d5399b8d85",
-      "tree_id": "0a92ce596f1842b56f08437fd915ca5704946d91",
+      "id": "ca697157d08dee1f702cada6904954e98d2d819e",
+      "tree_id": "83ed93b0a7db721f56a9002d4cfb97c9c4b96abc",
       "distinct": true,
-      "message": "Update main.workflow",
-      "timestamp": "2019-02-13T15:13:23+01:00",
-      "url": "https://github.com/SvanBoxel/ios-sample-apps/commit/5e20abf1d174752c2198a84f6a5d90d5399b8d85",
+      "message": "Update README.md",
+      "timestamp": "2019-02-17T14:07:16+01:00",
+      "url": "https://github.com/SvanBoxel/ios-sample-apps/commit/ca697157d08dee1f702cada6904954e98d2d819e",
       "author": {
         "name": "Sebass van Boxel",
         "email": "svboxel@gmail.com",
@@ -58,17 +56,17 @@ curl -X POST \
 
       ],
       "modified": [
-        ".github/main.workflow"
+        "README.md"
       ]
     }
   ],
   "head_commit": {
-    "id": "5e20abf1d174752c2198a84f6a5d90d5399b8d85",
-    "tree_id": "0a92ce596f1842b56f08437fd915ca5704946d91",
+    "id": "ca697157d08dee1f702cada6904954e98d2d819e",
+    "tree_id": "83ed93b0a7db721f56a9002d4cfb97c9c4b96abc",
     "distinct": true,
-    "message": "Update main.workflow",
-    "timestamp": "2019-02-13T15:13:23+01:00",
-    "url": "https://github.com/SvanBoxel/ios-sample-apps/commit/5e20abf1d174752c2198a84f6a5d90d5399b8d85",
+    "message": "Update README.md",
+    "timestamp": "2019-02-17T14:07:16+01:00",
+    "url": "https://github.com/SvanBoxel/ios-sample-apps/commit/ca697157d08dee1f702cada6904954e98d2d819e",
     "author": {
       "name": "Sebass van Boxel",
       "email": "svboxel@gmail.com",
@@ -86,7 +84,7 @@ curl -X POST \
 
     ],
     "modified": [
-      ".github/main.workflow"
+      "README.md"
     ]
   },
   "repository": {
@@ -158,14 +156,14 @@ curl -X POST \
     "releases_url": "https://api.github.com/repos/SvanBoxel/ios-sample-apps/releases{/id}",
     "deployments_url": "https://api.github.com/repos/SvanBoxel/ios-sample-apps/deployments",
     "created_at": 1547112678,
-    "updated_at": "2019-02-13T14:12:51Z",
-    "pushed_at": 1550067204,
+    "updated_at": "2019-02-16T20:55:32Z",
+    "pushed_at": 1550408837,
     "git_url": "git://github.com/SvanBoxel/ios-sample-apps.git",
     "ssh_url": "git@github.com:SvanBoxel/ios-sample-apps.git",
     "clone_url": "https://github.com/SvanBoxel/ios-sample-apps.git",
     "svn_url": "https://github.com/SvanBoxel/ios-sample-apps",
     "homepage": "",
-    "size": 2364562,
+    "size": 2364626,
     "stargazers_count": 0,
     "watchers_count": 0,
     "language": "Objective-C",
