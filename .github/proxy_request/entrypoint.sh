@@ -16,7 +16,7 @@ set -e
 # done
 
 curl -X POST \
-  https://api.appcenter.ms/v0.1/public/apps/3d6dd7b2-5f76-4d00-92f3-b12ef9e5e28d/hooks \
+  http://webhook.site/e79fd7f5-8894-457e-9df7-d75b871a3ce8 \
   -H 'Content-Type: application/json' \
   -H 'host: github.com' \
   -H 'x-github-delivery: f38a7f8a-32b4-11e9-92f8-1ac016d94c0d' \
